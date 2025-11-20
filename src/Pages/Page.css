@@ -392,7 +392,13 @@ button{
     }
     
     .details1{
-        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .p2,.p3{
+        width: 100%;
     }
     .dash h1{
         font-size: 2rem;
