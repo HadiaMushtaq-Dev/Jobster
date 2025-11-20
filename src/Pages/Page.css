@@ -126,7 +126,7 @@ button:hover{
     
 }
 .skills{
-    color: blue;
+    color: rgb(42, 149, 211);
 }
 .grid{
     width: 55%;
@@ -388,7 +388,7 @@ button{
         width: 50%;
     }
     .home1{
-        width: 90%;
+        width: 100%;
     }
     
     .details1{

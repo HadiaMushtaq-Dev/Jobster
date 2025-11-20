@@ -18,9 +18,9 @@ function Login(props) {
       <div  className='main1'>
        
       <form onSubmit={handleClick}>
-        <h3>Enter your name :</h3>
+        <h3>Enter your name</h3>
       <input type='text' placeholder='Username' required onChange={(e)=>setname(e.target.value)} value={name}/>
-        <h3>Enter your password :</h3>
+        <h3>Enter your password</h3>
       <input type='password' placeholder='Password' required/>
        
       <label htmlFor='entry' className='radio'>
