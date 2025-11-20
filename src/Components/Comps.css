@@ -1,0 +1,162 @@
+.nav{
+    width: 100%;
+    height: 15vh;
+      background-color: black;
+   display: flex;
+   /* margin-bottom: 10vh; */
+}
+.navi{
+   width: 100%;
+    height: 15vh;
+      background-color:rgba(0, 0, 0, 0.7);
+   display: flex;
+}
+.nav1{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav11{
+   width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav1 .logo{
+  font-size: 2rem;
+   font-weight: bold;
+  background: linear-gradient(90deg,blue,goldenrod, green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+nav{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.7rem;
+}
+.nav11 .logo1{
+    font-size: 4rem;
+  font-weight: bold;
+  background: linear-gradient(90deg,blue,goldenrod, green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+}
+.link1{
+  color: goldenrod;
+  text-decoration: none;
+}
+.link{
+  color: blue;
+  /* border-bottom: 2px solid blue; */
+  text-decoration: none;
+}
+.link1:hover{
+  color: blue;
+}
+.srch{
+  width: 90%;
+  display: flex;
+  margin:0 auto;
+  padding: 5vh 0;
+}
+.filt{
+ width: 35%;
+  display: flex;
+  margin:0 auto;
+  padding: 5vh 0;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid grey;
+  padding: 4vh;
+  height: 110vh;
+  border-radius: 20px;
+}
+.srch input{
+  width: 100%;
+  padding: 2vh;
+  border: 2px solid blue;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  background: transparent;
+  color: silver;
+}
+.filt select,.filt input{
+   width: 100%;
+  padding: 2vh;
+  border: 2px solid blue;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  background: transparent;
+  color: silver;
+  margin: 2vh 0;
+}
+.filt button,.dash1 button{
+   width: 100%;
+    padding: 1vh;
+    background-color: green;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    align-self: flex-start;
+    margin-top: 4vh;
+    border: 2px solid green;
+    cursor: pointer;
+}
+.char{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.char p{
+  width: 30%;
+  padding: 1vh;
+  border: 2px solid silver;
+  border-radius: 20px;
+  text-align: center;
+}
+.dash1 button{
+  width: 30%;
+}
+@media (max-width:1200px){
+  
+    .filt input,.filt select{
+        font-size: 1.3rem;
+    }
+}
+@media (max-width:1050px){
+    .filt{
+      width: 100%;
+      height: 40vh;
+      margin-bottom: 10vh;
+      overflow-y: scroll;
+    }
+   
+}
+@media (max-width:768px){
+    nav{
+      font-size: 1.2rem;
+    }
+    .srch input{
+      font-size: 1.2rem;
+    }
+    .dash1 button{
+  width: 50%;
+}
+.char p{
+  width: 40%;
+  padding: 1vh;
+  border: 2px solid silver;
+  border-radius: 20px;
+  text-align: center;
+}
+}
