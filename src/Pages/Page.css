@@ -282,7 +282,7 @@ button:hover{
 .dash h3{
     margin: 4vh 0;
     font-size: 2rem;
-    color: blue;
+    color: goldenrod;
 }
 .info input{
     width: 100%;
@@ -323,6 +323,9 @@ button:hover{
     border: 2px solid silver;
     margin: 2vh 0;
     padding: 2vh;
+}
+button{
+    border: 2px solid #1E201E;
 }
 @media (max-width:1300px){
     .radio{
@@ -370,19 +373,19 @@ button:hover{
 }
 @media (max-width:768px){
     .main1 form{
-        width: 90%;
+        width: 100%;
     }
     .main1 form{
         font-size: 1.2rem;
     }
     .home1 h1{
-        font-size: 3.5rem;
+        font-size: 2rem;
     }
     .home1 p{
         font-size: 1.2rem;
     }
     .home1 button{
-        width: 40%;
+        width: 50%;
     }
     .home1{
         width: 90%;
@@ -398,7 +401,7 @@ button:hover{
         font-size: 1.5rem;
     }
     .radio{
-        width: 90%;
+        width: 95%;
     }
      .post form{
         width: 90%;

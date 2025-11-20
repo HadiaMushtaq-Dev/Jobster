@@ -159,4 +159,11 @@ nav{
   border-radius: 20px;
   text-align: center;
 }
+.nav1{
+  display: block;
+}
+nav{
+  width: 100%;
+  padding-top: 2vh;
+}
 }
