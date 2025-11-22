@@ -26,11 +26,6 @@ It allows users to **browse, filter, search, and apply for jobs** easily. The ap
 
 ---
 
-## Installation
-Clone the repository:
-
-```bash
-git clone https://github.com/HadiaMushtaq-Dev/Jobster.git
 
 ## Live Preview
 [View Live Demo](https://HadiaMushtaq-Dev.github.io/Jobster/)
