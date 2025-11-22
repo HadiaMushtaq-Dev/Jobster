@@ -32,4 +32,5 @@ Clone the repository:
 ```bash
 git clone https://github.com/HadiaMushtaq-Dev/Jobster.git
 
-View Live Demo [https://HadiaMushtaq-Dev.github.io/Jobster/]
+## Live Preview
+[View Live Demo](https://HadiaMushtaq-Dev.github.io/Jobster/)
