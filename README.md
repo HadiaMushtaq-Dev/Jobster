@@ -1,18 +1,35 @@
-# React + Vite
+# Jobster
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+**Jobster** is a web-based job listing and application platform built with **React**.  
+It allows users to **browse, filter, search, and apply for jobs** easily. The app features a clean, responsive UI and leverages **localStorage** to save user actions like saved jobs or applied jobs.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Browse available job listings  
+- Search jobs by keywords or company  
+- Filter jobs by type, expertise, and company  
+- Save favorite jobs for later  
+- Apply to jobs and track applications  
+- Responsive design for desktop and mobile  
+- Uses Local Storage to persist user actions  
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## 🛠️ Tech Stack
+- **React** – UI and interactivity  
+- **React Router DOM** – Navigation  
+- **JavaScript (ES6+)** – Logic and functionality  
+- **CSS3 & TailwindCSS** – Styling and responsiveness  
+- **LocalStorage** – Data persistence  
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## Installation
+Clone the repository:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/HadiaMushtaq-Dev/Jobster.git
+
+View Live Demo [https://HadiaMushtaq-Dev.github.io/Jobster/]
